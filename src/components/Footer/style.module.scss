@@ -1,0 +1,44 @@
+.container {
+  background: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  // flex-shrink: 0;
+  h4 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .liensFFSS {
+    a {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+  .reseauxSociaux {
+    .reseaux {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    div {
+      &:not(:first-child) {
+        margin-top: 35px;
+      }
+      &.reseauxSociaux {
+        .reseaux {
+          justify-content: start;
+          margin-top: 10px;
+          a {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}
