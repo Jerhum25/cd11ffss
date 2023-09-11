@@ -6,7 +6,9 @@ function FormationsDetails(props) {
     <div className={s.container} id="formations">
       <h3>nos formations</h3>
       <ul>
-        <li>formation aux premiers secours</li>
+        <li><a href="/psc1">formation aux premiers secours PSC1</a></li>
+        <li><a href="/pse1">formation aux premiers secours PSE1</a></li>
+        <li><a href="/pse2">formation aux premiers secours PSE2</a></li>
         <li>devenir maître nageur sauveteur</li>
         <li>sauveteur secouriste du travail</li>
         <li>secours aquatiques</li>
