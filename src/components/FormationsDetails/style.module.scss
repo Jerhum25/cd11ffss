@@ -1,7 +1,5 @@
 .container {
   padding: 0 10px 0 10px;
-  // flex: 1 0 auto;
-  // height: auto;
   h3 {
     font-size: 25px;
     font-weight: 700;
@@ -19,37 +17,22 @@
       bottom: -5px;
     }
   }
+  p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
   ul {
+    margin-left: 2vw;
     li {
-      list-style-type: none;
+      // list-style-type: none;
       text-transform: uppercase;
       font-weight: 600;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       a{
         text-decoration: none;
         color: #000;
       }
-    }
-    :nth-child(1) {
-      margin-left: 15px;
-    }
-    :nth-child(2) {
-      margin-left: 30px;
-    }
-    :nth-child(3) {
-      margin-left: 45px;
-    }
-    :nth-child(4) {
-      margin-left: 60px;
-    }
-    :nth-child(5) {
-      margin-left: 75px;
-    }
-    :nth-child(6) {
-      margin-left: 90px;
-    }
-    :nth-child(7) {
-      margin-left: 105px;
     }
   }
 }

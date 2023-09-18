@@ -5,6 +5,7 @@ function FormationsDetails(props) {
   return (
     <div className={s.container} id="formations">
       <h3>nos formations</h3>
+      <p>Cliquez sur une formation pour voir le détail</p>
       <ul>
         <li><a href="/psc1">formation aux premiers secours PSC1</a></li>
         <li><a href="/pse1">formation aux premiers secours PSE1</a></li>
