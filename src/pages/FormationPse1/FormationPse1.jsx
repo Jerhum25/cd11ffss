@@ -3,7 +3,7 @@ import s from "./style.module.scss";
 
 function FormationPse1(props) {
   return <div className={s.container}>
-    <h3>Formation PSE1</h3>
+    <h3>formation PSE1</h3>
     <p>La formation PSE1, ou Premiers Secours en Équipe de niveau 1, est une formation plus avancée en secourisme en France par rapport au PSC1 (Prévention et Secours Civiques de niveau 1). Elle est conçue pour former des secouristes plus expérimentés, capables d'intervenir en équipe pour prendre en charge des situations d'urgence plus complexes. Voici une description générale de la formation PSE1 :<br/><br/>
 
 1. Objectifs :<br/>

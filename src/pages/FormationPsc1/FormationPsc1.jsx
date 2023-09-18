@@ -3,7 +3,7 @@ import s from "./style.module.scss";
 
 function FormationPsc1(props) {
   return <div className={s.container}>
-    <h3>Formation PSC1</h3>
+    <h3>formation PSC1</h3>
     <p>Le PSC1, ou Prévention et Secours Civiques de niveau 1, est une formation de base en premiers secours en France. Cette formation vise à enseigner les gestes de secourisme essentiels permettant d'intervenir en cas d'accidents de la vie quotidienne et de contribuer à sauver des vies en attendant l'arrivée des secours professionnels. Voici une description générale de la formation PSC1 :<br/><br/>
 
 1. Objectifs :<br/>

@@ -4,7 +4,7 @@ import s from "./style.module.scss";
 function FormationPse2(props) {
   return (
     <div className={s.container}>
-      <h3>Formation PSE2</h3>
+      <h3>formation PSE2</h3>
       <p>
         La formation PSE2, ou Premiers Secours en Équipe de niveau 2, est un
         niveau de formation avancé en secourisme en France. Elle est conçue pour

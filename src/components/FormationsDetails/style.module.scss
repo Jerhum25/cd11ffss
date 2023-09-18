@@ -25,6 +25,10 @@
       text-transform: uppercase;
       font-weight: 600;
       margin-bottom: 10px;
+      a{
+        text-decoration: none;
+        color: #000;
+      }
     }
     :nth-child(1) {
       margin-left: 15px;

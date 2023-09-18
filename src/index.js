@@ -11,6 +11,12 @@ import Contact from "./pages/Contact/Contact";
 import FormationPsc1 from "./pages/FormationPsc1/FormationPsc1";
 import FormationPse1 from "./pages/FormationPse1/FormationPse1";
 import FormationPse2 from "./pages/FormationPse2/FormationPse2";
+import FormationMNS from "./pages/FormationMNS/FormationMNS";
+import FormationSST from "./pages/FormationSST/FormationSST";
+import FormationSecAqua from "./pages/FormationSecAqua/FormationSecAqua";
+import FormationPrevRisques from "./pages/FormationPrevRisques/FormationPrevRisques";
+import FormationSecEquipe from "./pages/FormationSecEquipe/FormationSecEquipe";
+import FormationDevenirFormateur from "./pages/FormationDevenirFormateur/FormationDevenirFormateur";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +32,12 @@ root.render(
           <Route path="/psc1" element={<FormationPsc1 />} />
           <Route path="/pse1" element={<FormationPse1 />} />
           <Route path="/pse2" element={<FormationPse2 />} />
+          <Route path="/mns" element={<FormationMNS />} />
+          <Route path="/sst" element={<FormationSST />} />
+          <Route path="/secours_aquatiques" element={<FormationSecAqua />} />
+          <Route path="/prevention_risques" element={<FormationPrevRisques />} />
+          <Route path="/secours_equipe" element={<FormationSecEquipe />} />
+          <Route path="/devenir_formateur" element={<FormationDevenirFormateur />} />
 
         </Route>
       </Routes>
