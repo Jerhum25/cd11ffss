@@ -40,5 +40,8 @@
 @media screen and (max-width: 500px) {
   .container{
       padding: 5px;
+      ul{
+        padding-left: 10px;
+      }
   }
 }

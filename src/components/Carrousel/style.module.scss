@@ -1,0 +1,55 @@
+.slider {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  h2, h3{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 45px;
+    color: #fff;
+    background: rgba($color: #000000, $alpha: 0.4);
+    height: fit-content;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  h3{
+    font-size: 35px;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 20vw;
+    text-align: left;
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .active {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+
+    opacity: 1;
+  }
+}

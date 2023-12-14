@@ -6,8 +6,8 @@ function Header(props) {
     <div className={s.container} id="container">
       <a href="/" className={s.logo}>
         <img src="../../img/logo.png" alt="logo" />
-        <h1>CD 11 FFSS</h1>
       </a>
+      <h1>CD FFSS 11</h1>
       <Nav />
     </div>
   );

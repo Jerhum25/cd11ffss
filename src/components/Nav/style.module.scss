@@ -68,6 +68,23 @@
         }
       }
     }
+    .formations {
+      position: relative;
+      z-index: 11;
+      .listeFormations {
+        display: none;
+        position: absolute;
+        padding: 10px;
+        background: rgb(213, 243, 253);
+        z-index: 10;
+        .formation{
+          padding: 5px 3px;
+        }
+      }
+      &:hover .listeFormations {
+        display: block;
+      }
+    }
   }
 }
 

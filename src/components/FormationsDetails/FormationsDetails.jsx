@@ -12,7 +12,7 @@ function FormationsDetails(props) {
         <li><a href="/pse2">formation aux premiers secours PSE2</a></li>
         <li><a href="/mns">devenir maître nageur sauveteur</a></li>
         <li><a href="/sst">sauveteur secouriste du travail</a></li>
-        <li><a href="secours_aquatiques">secours aquatiques</a></li>
+        <li><a href="/secours_aquatiques">secours aquatiques</a></li>
         <li><a href="/prevention_risques">prévention des risques</a></li>
         <li><a href="/secours_equipe">secours en équipe</a></li>
         <li><a href="/devenir_formateur">devenir formateur</a></li>
